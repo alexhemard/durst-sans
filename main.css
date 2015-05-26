@@ -1,0 +1,54 @@
+@font-face {
+  font-family: durstSans;
+  src: url('durstsans.ttf');
+}
+
+html {
+  font-family: durstSans;
+  letter-spacing: 0.2em;
+}
+
+body {
+  background-color: black;
+}
+
+a {
+  color: black;
+}
+
+.letter {
+  width: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.letter {
+  background-image: url("img/letter.png");
+  background-size: 100%;
+  font-size: 30px;
+  height: 590px;
+  letter-spacing: 0.2em;
+  line-height: 51px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  transform: rotate(-1deg);
+  white-space: pre;
+  width: 370px;
+  padding-left: 80px;
+}
+
+[contenteditable]:focus {
+  outline: 0px solid transparent;
+}
+
+.download {
+  background-color: green;
+  width: 400px;
+  display: block;
+
+  margin: 20px auto;
+  text-align: center;
+  padding: 10px;
+}
